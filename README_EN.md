@@ -1,5 +1,7 @@
 # SimpleList (极简打卡)
 
+[简体中文](/README.md) | [English](/README_EN.md)
+
 A simple and elegant goal tracking and check-in application that supports multi-platform operation.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)

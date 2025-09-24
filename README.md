@@ -1,5 +1,7 @@
 # 极简打卡 (SimpleList)
 
+[简体中文](/README.md) | [English](/README_EN.md)
+
 一个简洁优雅的目标追踪和打卡应用，支持多平台运行。
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
