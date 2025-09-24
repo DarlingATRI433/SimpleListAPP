@@ -1,0 +1,48 @@
+{
+    "name": "simplelist",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "tauri": "tauri",
+        "dev": "tauri dev",
+        "build": "tauri build",
+        "build:android": "tauri icon app-icon.png && tauri android build --apk",
+        "sync-icons": "sync-icons.bat",
+        "test": "playwright test",
+        "serve": "python -m http.server 8080",
+        "serve-node": "npx http-server -p 8080"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.55.0",
+        "@tauri-apps/cli": "^2"
+    },
+    "description": "A clean and elegant goal tracking and habit building application that supports multiple platforms.",
+    "main": "src/index.html",
+    "keywords": [
+        "habit-tracker",
+        "goal-tracking",
+        "productivity",
+        "tauri",
+        "cross-platform",
+        "minimalist",
+        "daily-checkin",
+        "progress-tracking"
+    ],
+    "author": "SimpleList Contributors",
+    "license": "MIT",
+    "homepage": "https://github.com/your-username/simplelist#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-username/simplelist.git"
+    },
+    "bugs": {
+        "url": "https://github.com/your-username/simplelist/issues"
+    },
+    "dependencies": {
+        "puppeteer": "^24.22.0"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}
